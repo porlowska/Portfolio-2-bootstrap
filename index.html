@@ -21,7 +21,7 @@
 
 <!-- Navigation bar w/ links to portfolio-->
         
-<nav class="navbar navbar-expand-sm bg-body-tertiary">
+<nav class="navbar navbar-expand-sm">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"> Portfolio </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,24 +39,24 @@
     </div>
 </nav>
 
-<!--Hero section w/ jumbotron featuring your picture, your name, and any other information you'd like to include -->
-<section> 
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-        <div class="container.fluid py-5 text-end">
-        <img src="assets/images/02-hero-bg.jpg" alt="" class="img-fluid">
-        <h1 class="display-5 fw-bold"> Polly Orlowska</h1>
-        <p class="col fs-4">Web Developer </p>
-        <button class="btn btn-outline-warning btn-lg shadow p-3 mb-5 bg-body-tertiary rounded" type="button" href="#contact"> Contact Me!</button>
+<!--Hero section  -->
+
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 heroBackground">
+        <div class="container-fluid text-end">
+        <h1 class="display-5 fw-bold heroHeading"> Polly Orlowska</h1><br>
+        <p class="col fs-4 heroHeading">Web Developer </p><br>
+        <button class="btn btn-outline-secondary p-2 rounded" type="button" href="#contact"> Contact Me!</button>
         </div>
     </div>
-</section>
+
+
 <!-- about me section -->
 <section id="about">
     <h2 class="section-heading"> About Me</h2>
     <div class="card sm-3 section-body">
         <div class="row g-0">
-        <div class="col-md-4">
-            <img src="assets/images/IMG_6230.jpg" class="img-fluid rounded-start" alt="Profile Picture">
+        <div class="col-sm-4">
+            <img src="assets/images/IMG_6230.jpg" class="img-fluid rounded-start mx-auto p-4 p-md-2 ps-md-4" id="aboutImg" alt="Profile Picture">
         </div>
         <div class="col-sm-8">
             <div class="card-body">
@@ -72,15 +72,15 @@
     </div>
 </section>
 
-<!-- work section w/ a section displaying your work in grid & Use bootstrap cards for each project-->
+<!-- work section -->
 <section id="work">
-    <h2 class="section-heading"> Projects</h2>
+    <h2 class="section-heading"> Work </h2>
 
     <div class="container text-center section-body">
         <div class="row justify-content-center p-md-3 mb-3">
             <div class="col-sm-8">
                 <div class="card text-bg-dark border-warning">
-                    <img src="assets/images/Horiseon.png" class="card-img" alt="Horiseon Project">
+                    <img src="assets/images/Horiseon.png" class="card-img workImg" id="workImg" alt="Horiseon Project">
                     <div class="card-img-overlay">
                         <a href="https://porlowska.github.io/01-Horiseon-Marketing/" class="stretched-link"></a>
                             <h3 class="card-title">Horiseon</h3>
@@ -92,7 +92,7 @@
         <div class="row justify-content-center justify-content-lg-evenly g-3">
             <div class="col-sm-6 col-lg-4">
                 <div class="card text-bg-dark border-warning">
-                    <img src="assets/images/02-portfolio-1.jpg" class="card-img" alt="Project">
+                    <img src="assets/images/02-portfolio-1.jpg" class="card-img workImg" alt="Project">
                     <div class="card-img-overlay">
                         <a href="assets/images/404-error.png" class="stretched-link"></a>
                             <h3 class="card-title"> CSS Layouts</h3>
@@ -102,7 +102,7 @@
             </div>    
             <div class="col-sm-6 col-lg-4">
                 <div class="card text-bg-dark border-warning">
-                    <img src="assets/images/02-portfolio-2.jpg" class="card-img" alt="Project">
+                    <img src="assets/images/02-portfolio-2.jpg" class="card-img workImg" alt="Project">
                     <div class="card-img-overlay">
                         <h3 class="card-title"> JavaScript</h3>
                         <a href="assets/images/404-error.png" class="stretched-link"></a>
@@ -112,7 +112,7 @@
             </div>
             <div class="col-sm-6 col-lg-4">
                 <div class="card text-bg-dark border-warning">
-                    <img src="assets/images/02-portfolio-3.jpg" class="card-img" alt="Project">
+                    <img src="assets/images/02-portfolio-3.jpg" class="card-img workImg" alt="Project">
                     <div class="card-img-overlay">
                         <h3 class="card-title">Web Project 1</h3>
                         <a href="assets/images/404-error.png" class="stretched-link"></a>
@@ -122,7 +122,7 @@
             </div>
             <div class="col-sm-6 col-lg-4">
                 <div class="card text-bg-dark border-warning">
-                    <img src="assets/images/02-portfolio-4.jpg" class="card-img" alt="Project">
+                    <img src="assets/images/02-portfolio-4.jpg" class="card-img workImg" alt="Project">
                     <div class="card-img-overlay">
                         <h3 class="card-title"> Web Project 2</h3>
                         <a href="assets/images/404-error.png" class="stretched-link"></a>
@@ -132,7 +132,7 @@
             </div>
             <div class="col-sm-6 col-lg-4">
                 <div class="card text-bg-dark border-warning">
-                    <img src="assets/images/02-portfolio-3.jpg" class="card-img" alt="Project">
+                    <img src="assets/images/02-portfolio-3.jpg" class="card-img workImg" alt="Project">
                     <div class="card-img-overlay">
                         <h3 class="card-title">Project</h3>
                         <a href="assets/images/404-error.png" class="stretched-link"></a>
@@ -142,7 +142,7 @@
             </div>
             <div class="col-sm-6 col-lg-4">
                 <div class="card text-bg-dark border-warning">
-                    <img src="assets/images/02-run-buddy.jpg" class="card-img" alt="Project">
+                    <img src="assets/images/02-run-buddy.jpg" class="card-img workImg" alt="Project">
                     <div class="card-img-overlay">
                         <h3 class="card-title">Project</h3>
                         <a href="assets/images/404-error.png" class="stretched-link"></a>
@@ -159,7 +159,7 @@
     <h2 class="section-heading">Skills</h2>
     <div class="container section-body">
     <div class="row">
-        <ul class="list-group">
+        <ul class="list-group col-sm-12 col-md-8 offset-md-2 col-lg-7 offset-md-2 col-xl-6 offset-md-3">
             <li class="list-group-item">
             <div class="ms-2 me-auto">
                 <div class="fw-bold">HTML</div>
@@ -210,7 +210,7 @@
 <!-- contact section-->
 <section id="contact">
     <h2 class="section-heading"> Contact Me </h2>
-    <div class="section-body">
+    <div class="section-body contact">
         <a class="btn btn-outline-secondary p-2 rounded" href="mailto:sample@example.com" role="button">Email</a>
         <a class="btn btn-outline-secondary p-2 rounded" href="tel:07494532324" role="button">Phone</a>
         <a class="btn btn-outline-secondary p-2 rounded" href="https://github.com/porlowska" role="button">GitHub</a>
@@ -220,7 +220,7 @@
 </section>
 <!-- footer section -->
 <footer>
-    <div class="container.fluid">
+    <div class="container-fluid">
     <p>&copy; Polly Orlowska 2023. All Rights Reserved.</p>
     </div>
 </footer>

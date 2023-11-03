@@ -1,0 +1,131 @@
+/* color scheme from https://colorhunt.co/ */
+:root {
+    --beige: #FCF5ED;
+    --peach: #F4BF96;
+    --pastel-red: #CE5A67;
+    --black: #1F1717;
+    --hover: #CE5A67;
+  
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: var(--beige) !important;
+    color: var(--black) !important;
+}
+
+/* root styles copied from original portfolio */
+
+/* Overall */
+
+.section-heading{
+    color: var(--pastel-red);
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.section-body{
+    padding: 2rem;
+}
+
+
+/* Navbar Styling */
+.navbar-collapse{
+    flex-direction: row-reverse;
+}
+
+.navbar{
+    background-color: var(--peach);
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size:x-large;
+}
+
+/* Hero Styling */
+.heroBackground{
+    background-image: url("../images/02-hero-bg.jpg");
+    background-size: cover;
+}
+
+.heroHeading{
+    display: inline;
+    background-color: rgb(226, 227, 228);
+}
+
+
+/* About Styling */
+
+/* Work Styling */
+.workImg{
+    height: 10rem;
+    opacity: 0.7;
+}
+#workImg{
+    height: 14rem;
+}
+
+.workImg:hover{
+    opacity: 1;
+}
+/* Skills Styling */
+/* Contact Me Styling */
+s
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn:hover{
+    box-shadow: 5px 10px var(--hover);
+}
+
+/* FooterStyling */
+footer{
+    height: 5rem;
+    color: var(--beige);
+    background-color: #F4BF96;
+}
+
+footer > div > p{
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Media*/
+
+@media screen and (max-width: 569px) {
+    #aboutImg{
+        padding: 4rem !important;
+    }
+}
+@media screen and (min-width: 768px) {
+    #aboutImg{
+        width: 18rem;
+    }
+    section{
+        display: flex;
+
+    }
+    .section-heading{
+        border-right: 3px solid black;
+        margin-right: 0.5em;
+        margin-left: 0px;
+        min-width: 200px;
+    }
+    .contact{
+        display: inline-block;
+        margin: auto;
+    }
+
+}
