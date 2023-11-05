@@ -61,7 +61,7 @@ body {
 .heroHeading{
     display: inline;
     background-color: rgb(226, 227, 228);
-    padding: 0.35em;
+    padding: 0.13rem 0.5rem;
 }
 .btn-outline-secondary{
     margin-top: 0.5rem;
